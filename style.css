@@ -1,0 +1,17 @@
+
+
+@import "tailwindcss";
+
+@theme {
+  --animate-logo-scroll: logo-scroll 18s linear infinite;
+
+  @keyframes logo-scroll {
+    from {
+      transform: translateY(0);
+    }
+
+    to {
+      transform: translateY(-100%);
+    }
+  }
+}
